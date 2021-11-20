@@ -12,6 +12,7 @@ timerId = setInterval(() => {
     document.body.style.backgroundColor = getRandomHexColor(); 
     getStart.disabled = true;
     getStop.removeAttribute('disabled');       
+    console.log(timerId);
 }, 1000);
 });
 
